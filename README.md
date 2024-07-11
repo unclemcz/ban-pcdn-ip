@@ -1,7 +1,15 @@
 # ban-pcdn-ip
 收集地区为山西、运营商为联通的PCDN恶意刷量IP段清单。
 
-情况介绍部分链接：
+
+## ip清单
+ipdb.txt文件，已经排序。
+
+## main.py
+用来对ipdb.txt进行排序的脚本，可以忽略。
+
+
+## 情况介绍部分链接：
 
 https://www.v2ex.com/t/1056361
 
