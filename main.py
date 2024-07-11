@@ -1,5 +1,4 @@
-# 对ipdb.txt的内容进行排序，并输出到ipdb.txt中
-import re
+# 对ipdb.txt的内容进行去重和排序，并输出到ipdb.txt中
 
 # 将ipdb.txt备份为ipdb_日期_时间.txt 格式
 import datetime
