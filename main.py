@@ -15,6 +15,8 @@ with open('ipdb.txt', 'r') as f:
     # 读取内容，并将每行的数据进行排序
     lines = f.readlines()
     lines_without_newlines = [line.strip() for line in lines]
+    # 对lines_without_newlines进行去重
+    lines_without_newlines = list(set(lines_without_newlines))
     # 剔除lines_without_newlines中空的元素和#开头的元素
     lines_without_newlines = [line for line in lines_without_newlines if line and not line.startswith('#')]
     #print(lines_without_newlines)
