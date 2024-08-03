@@ -18,13 +18,14 @@ with open('ipdb.txt', 'r') as f:
     lines_without_newlines = list(set(lines_without_newlines))
     # 剔除lines_without_newlines中空的元素和#开头的元素
     lines_without_newlines = [line for line in lines_without_newlines if line and not line.startswith('#')]
-    #print(lines_without_newlines)
-    lines_without_newlines.sort()
+    # 将ip清单中的每个ip地址按照点分十进制进行排序
+    lines_without_newlines.sort(key=lambda x: tuple(map(int, x.split('/')[0].split('.'))))
     # 在lines_without_newlines开头插入新元素
     lines_without_newlines.insert(0, '# IP段清单')
-    #print(lines_without_newlines)
+    print(lines_without_newlines)
+    # 打印lines_without_newlines的长度
+    print(len(lines_without_newlines))
     # 将排序后的内容写入文件，要求每个元素一行
     with open('ipdb.txt', 'w') as f:
         f.write('\n'.join(lines_without_newlines))
     print('排序完成，更新完成！')
-
