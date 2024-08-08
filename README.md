@@ -35,3 +35,5 @@ https://mp.weixin.qq.com/s/cl_ZAZ1PpP1NIT1UXa7PeQ
 https://www.dogecloud.com/announcement/26
 
 https://linux.do/t/topic/169770
+
+https://www.kseas.cn/135.html
