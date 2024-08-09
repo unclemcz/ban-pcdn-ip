@@ -12,10 +12,13 @@ ipdb.txt文件，已经排序。
 
 ## 关于补充ip数据
 如果有补充的地址，大家可以在 ipdb.txt 里直接增加 ip 段，然后提交上来，目前非常依赖用户贡献新的地址段。
+### 要求
+为避免误伤正常IP，大家提pr或者issue同时，需要提供自己CDN被刷的截图或者可靠来源链接，方便验证。
 
 
-## 情况介绍部分链接：
+## 情况介绍部分链接
 
+### v2ex
 https://www.v2ex.com/t/1056361
 
 https://www.v2ex.com/t/1055550
@@ -30,8 +33,8 @@ https://www.v2ex.com/t/1052331
 
 https://www.v2ex.com/t/1045318
 
-https://mp.weixin.qq.com/s/cl_ZAZ1PpP1NIT1UXa7PeQ
-
+### 多吉云公告
 https://www.dogecloud.com/announcement/26
 
+### 其他
 https://linux.do/t/topic/169770
